@@ -297,7 +297,6 @@ function elem_finalize($elem)
 function elem_has_class($elem, $c)
 {
 	if (is_array($elem) && is_array($elem['class']) && @in_array($c, $elem['class'])) {
-	//if (@in_array($c, $elem['class'])) {
 		return true;
 	} else {
 		return false;
