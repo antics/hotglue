@@ -14,4 +14,5 @@
 
 @define('AUTH_USER', 'admin');
 @define('AUTH_PASSWORD', 'changeme');
+@define('FAVICON', '');		// can be empty or an absolute url
 
